@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+dist/
+coverage/
+*.rar
+npm-debug.log
+package-lock.json
+webapp/src/mcss/
+webapp/src/page/
+webapp/WEB-INF/view/

@@ -1,0 +1,54 @@
+{
+  "name": "fed-snippets",
+  "version": "0.0.1",
+  "description": "front end snippets",
+  "main": "index.js",
+  "bin": {
+    "fsp": "bin/fed-snippets.js"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "jest && codecov"
+  },
+  "lint-staged": {
+    "linters": {
+      "bin/*.js": [
+        "eslint --fix",
+        "git add"
+      ],
+      "lib/**/*.js": [
+        "eslint --fix",
+        "git add"
+      ]
+    }
+  },
+  "dependencies": {
+    "commander": "2.11.0",
+    "n-s-logs": "0.2.0",
+    "inquirer": "3.3.0",
+    "moment": "2.21.0"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "babel-eslint": "8.0.1",
+    "husky": "0.13.4",
+    "lint-staged": "3.6.1",
+    "jest": "21.2.1",
+    "codecov": "2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReAlign/fed-snippets.git"
+  },
+  "keywords": [
+    "snippets",
+    "fed",
+    "frontEnd"
+  ],
+  "author": "ReAlign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReAlign/fed-snippets/issues"
+  },
+  "homepage": "https://github.com/ReAlign/fed-snippets#readme"
+}
