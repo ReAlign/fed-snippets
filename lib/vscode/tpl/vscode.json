@@ -1,0 +1,11 @@
+{
+    "func": {
+        "prefix": "func",
+        "body": [
+            "$1: function($2) {",
+            "    ${3:return true;}$0",
+            "},"
+        ],
+        "description": "create function 222"
+    }
+}
