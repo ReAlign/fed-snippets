@@ -1,8 +1,9 @@
 
 create function
-
-222
 ######
 $1: function($2) {
-    ${3:return true;}$0
+    ${3|var,let,const|} self = this;
+    ${4|var,let,const|} data = this.data;
+    ${5|var,const|} condition = this.data.condition;
+    ${6:return true;}
 },

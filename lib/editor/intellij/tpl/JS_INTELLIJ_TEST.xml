@@ -1,0 +1,16 @@
+<templateSet group="JS_INTELLIJ_TEST">
+    <template name="func" value="$1$: function($2$) {&#10;    $3$ self = this;&#10;    $4$ data = this.data;&#10;    $5$ condition = this.data.condition;&#10;    $6$&#10;}," description="create function" toReformat="true" toShortenFQNames="true">
+        <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
+        <variable name="6" expression="" defaultValue="&quot;return true;&quot;" alwaysStopAt="true"/>
+        <variable name="3" expression="enum(&quot;var&quot;,&quot;let&quot;,&quot;const&quot;)" defaultValue="&quot;var,let,const&quot;" alwaysStopAt="true"/>
+        <variable name="4" expression="enum(&quot;var&quot;,&quot;let&quot;,&quot;const&quot;)" defaultValue="&quot;var,let,const&quot;" alwaysStopAt="true"/>
+        <variable name="5" expression="enum(&quot;var&quot;,&quot;const&quot;)" defaultValue="&quot;var,const&quot;" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_SCRIPT" value="true"/>
+            <option name="JS_EXPRESSION" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+            <option name="JS_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>

@@ -26,7 +26,10 @@
     "commander": "2.11.0",
     "n-s-logs": "0.2.0",
     "inquirer": "3.3.0",
-    "moment": "2.21.0"
+    "moment": "2.21.0",
+    "jsontoxml": "1.0.0",
+    "formattor": "0.0.2",
+    "lodash": "4.17.10"
   },
   "devDependencies": {
     "eslint": "3.19.0",
